@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomePostController extends Controller
+class PostController extends Controller
 {
     public function index()
 	{
@@ -13,6 +13,6 @@ class HomePostController extends Controller
 
 	public function show()
 	{
-//		return view('posts.index');
+		return view('posts.show');
 	}
 }
