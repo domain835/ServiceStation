@@ -32,13 +32,13 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="marketing-index.html">Главная</a>
+                            <a class="nav-link" href="{{ route('home') }}">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="marketing-category.html">Сервис</a>
+                            <a class="nav-link" href="{{ route('categories.single', ['slug' => 'service']) }}">Сервис</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="marketing-category.html">Магазин</a>
+                            <a class="nav-link" href="{{ route('categories.single', ['slug' => 'shop']) }}">Магазин</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="marketing-blog.html">Блог</a>
