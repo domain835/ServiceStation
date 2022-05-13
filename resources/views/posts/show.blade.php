@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', $post->title . 'Service Station :: ')
+@section('title', $post->title)
 
 @section('content')
     <div class="page-wrapper">
