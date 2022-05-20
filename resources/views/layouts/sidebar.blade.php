@@ -1,6 +1,6 @@
 <div class="sidebar">
     <div class="widget">
-        <h2 class="widget-title">Popular Posts</h2>
+        <h2 class="widget-title">Популярные посты</h2>
         <div class="blog-list-widget">
             <div class="list-group">
                 @foreach($popular_posts as $post)
@@ -19,7 +19,7 @@
     </div><!-- end widget -->
 
     <div class="widget">
-        <h2 class="widget-title">Categories</h2>
+        <h2 class="widget-title">Категории</h2>
         <div class="link-widget">
             <ul>
                 @foreach($cats as $cat)

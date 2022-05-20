@@ -27,9 +27,9 @@
                     <input name="s"
                            class="form-control mr-sm-2 @error('s') is-invalid @enderror"
                            type="text"
-                           placeholder="How may I help?"
+                           placeholder="Найти..."
                            required>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
                 </form>
             </div>
         </nav>
