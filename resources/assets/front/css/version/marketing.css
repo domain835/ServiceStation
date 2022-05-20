@@ -364,3 +364,7 @@ a:focus,
     color: #111111 !important;
     background-color: #f9ca27 !important;
 }
+
+.market-header .form-inline .form-control .is-invalid {
+    border: 2px solid red;
+}
